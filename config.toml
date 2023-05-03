@@ -1,4 +1,3 @@
-baseURL = 'http://kjyook.github.io/'
+baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
-theme = 'hugo-developer-portfolio'
