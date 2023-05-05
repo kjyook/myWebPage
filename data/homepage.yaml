@@ -1,0 +1,99 @@
+banner:
+  title: 김재욱입니다.
+
+social:
+  github: kjyook
+  gmail: kjyook01
+  instagram: kjyook
+  linkedin:
+  twitter: ""
+  bitbucket: ""
+  gitlab: ""
+  facebook: ""
+  hotmail: ""
+  telegram: ""
+  whatsapp: ""
+
+about:
+  enable: true
+  content: 소프트웨어학과 3학년
+  button:
+    btnText: Find out more
+    URL: "/about"
+
+education:
+  enable: true
+  item:
+    - title: 소프트웨어 전공
+      year: 2023 - Present
+      academy: 한국항공대학교
+      image: logos/eblem_kau.png
+
+skill:
+  enable: true
+  item:
+    - title: react
+      logo: /logos/React-icon.svg
+      description: 2023 산학프로젝트 frontend 개발을 react로 진행해봄
+
+    - title: typescript
+      logo: /logos/Typescript_logo_2020.svg
+      description: 2023 산학프로젝트 frontend 개발을 typescript로 진행해봄
+
+portfolio:
+  enable: false
+  item:
+    - title: Easy DMARC
+      image: https://res.cloudinary.com/samrobbins/image/upload/v1597159067/Easy_DMARC_hkcgif.webp
+      description: A website to make it easy to add DMARC to a Vercel website
+      link: "/portfolio/easy-dmarc"
+      tools:
+        - next-dot-js
+        - tailwindcss
+        - vercel
+        - react
+
+experience:
+  enable: false
+  item:
+    - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793271/logos/logos_google_id6v9a.svg
+      title: init.g
+      company: Google
+      duration: November 2019
+
+
+hackathons:
+  enable: false
+  item:
+    - title: Hack Cambridge 2019
+      description: Climate change simulator
+      image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793405/stickers/Hack_Cambridge_101_ozoq5d.png
+      url: none
+
+certifications:
+  enable: false
+  item:
+    - title: Microsoft Azure Fundamentals
+      image: https://res.cloudinary.com/samrobbins/image/upload/v1592501459/microsoft-certified-fundamentals-badge_cpcgyn.svg
+      url: https://www.youracclaim.com/badges/b4cf7a86-eb83-478e-bfd0-9f427c3474a0/public_url
+
+awards:
+  enable: false
+  item:
+    - title: Phase 1 Winner
+      event: GNOME Community Engagement Challenge
+      image: https://res.cloudinary.com/samrobbins/image/upload/v1595701167/CEChallenge-P1Winner2_iyjvyu.png
+
+publications:
+  enable: false
+  item:
+    - image: /path/to/img
+      title: Title of the publication
+      description: details about the publication
+      code_link: link/to/the/repository
+      pdf_link: link/to/the/pdf
+
+portfolio:
+  filter:
+    - label: Web Dev
+      value: web-dev
